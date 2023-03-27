@@ -11,12 +11,11 @@
         width: 100%;
         height: 360px;
         object-fit: cover;
-      }
-      
-      
+      }   
     </style>
   </head>  
   <body >
+    {% include 'nav.html' %}
     <div class="container">
         <h1 class="text-center mt-2 mb-4">Jovian Careers</h1>
         <img class="img-fluid" id="banner" src= "https://jovian-careers-website.imshourya007.repl.co/static/banner.jpg">
@@ -32,6 +31,6 @@
       <div class="text-center">
       <button class="btn btn-primary btn-lg">Contact Us</button>
       </div>
-        <p class="text-center mt-4">Copyright 2023</p>
+    {% include 'footer.html' %}
   </body>
 </html>
